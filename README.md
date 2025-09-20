@@ -1,4 +1,4 @@
-# text-reveal
+# 🎬 text-reveal.js
 
 Reveal text letter-by-letter as it enters the viewport.
 
