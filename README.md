@@ -10,13 +10,13 @@ Tiny (<1 KB), no dependencies.
 
 ## Features
 
-- **Letter-by-letter reveal:** Animates text one letter at a time as it enters the viewport.
-- **Adaptive staggered delays:** Short and long strings finish animating at the same time for a natural look.
-- **Tiny and dependency-free:** Under 1Kb minified.
-- **Per-element customization:** Override `duration`, `minDelay`, `maxDelay`, and `threshold` using `data-*` attributes.
-- **Scroll-triggered:** Uses `IntersectionObserver` for efficient, performant animations.
-- **Flexible styling:** Customize transforms, easing, and timing via CSS.
-- **Accessibility friendly:** Can respect `prefers-reduced-motion` with CSS.
+- Letter-by-letter reveal: Animates text one letter at a time when it enters the viewport.
+- Adaptive staggered delays: Short and long strings finish animating at the same time for a natural look.
+- Tiny and dependency-free: Under 1Kb minified
+- Per-element customization: Override `duration`, `minDelay`, `maxDelay`, and `threshold` using `data-*` attributes.
+- Scroll-triggered: Uses `IntersectionObserver` under the hood for efficiency and performance
+- Flexible styling: Customize transforms, easing, and timing via CSS.
+- Accessibility friendly: Can respect `prefers-reduced-motion` with CSS.
 
 ## Installation
 
@@ -54,7 +54,7 @@ textReveal({
 
 ## CSS
 
-Add some CSS to style the animation. The JavaScript sets `transition-delay` automatically:
+Add CSS to style the animation. The JavaScript sets `transition-delay` automatically:
 
 ```css
 @media (prefers-reduced-motion: no-preference) {
@@ -71,8 +71,6 @@ Add some CSS to style the animation. The JavaScript sets `transition-delay` auto
   }
 }
 ```
-
-You can fully customize the transform, timing, and easing to match your project.
 
 ## Browser Support
 
