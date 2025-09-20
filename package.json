@@ -1,0 +1,43 @@
+{
+  "name": "text-reveal-animation",
+  "version": "1.0.0",
+  "description": "Reveal text letter-by-letter as it enters the viewport.",
+  "main": "dist/text-reveal.umd.js",
+  "module": "dist/text-reveal.esm.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/text-reveal.git"
+  },
+  "keywords": [
+    "text",
+    "reveal",
+    "text reveal",
+    "reveal text",
+    "animation",
+    "javascript",
+    "css",
+    "letter-animation",
+    "scroll-animation",
+    "viewport",
+    "staggered-animation",
+    "intersection-observer"
+  ],
+  "author": "Mike Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/text-reveal/issues"
+  },
+  "homepage": "https://github.com/your-username/text-reveal#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.52.0"
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Reveal Animation Demo</title>
+    <style>
+      body {
+        padding-top: 100px;
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        margin: 0;
+      }
+
+      .page {
+        min-height: 100vh;
+      }
+
+      .container {
+        width: 80%;
+        max-width: 1000px;
+        margin-inline: auto;
+      }
+
+      .text-reveal .letter {
+        opacity: 0;
+        transform: translateY(3px);
+        will-change: opacity, transform;
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+      }
+
+      .text-reveal .letter.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page">
+        <h1 class="text-reveal">text-reveal.js</h1>
+        <h2 class="text-reveal">
+          A tiny, dependency-free JavaScript module for animating text
+          letter-by-letter as it enters the viewport.
+        </h2>
+      </div>
+      <div class="page">
+        <h1 class="text-reveal">This is a short sentence.</h1>
+        <h2 class="text-reveal">
+          This is a longer sentence but it finishes animating at the same time
+          as the short one.
+        </h2>
+      </div>
+      <div class="page">
+        <h1 class="text-reveal">The transition-delay is adaptive</h1>
+        <h2 class="text-reveal">
+          This allows for a natural-looking animation, regardless of length of
+          the text.
+        </h2>
+      </div>
+      <div class="page">
+        <h1 class="text-reveal">Customize with your own CSS animations</h1>
+        <h2 class="text-reveal">
+          And tweak the total duration timing and min/max delays per element.
+        </h2>
+      </div>
+    </div>
+
+    <script src="./dist/text-reveal.js"></script>
+    <script>
+      textReveal();
+    </script>
+  </body>
+</html>
