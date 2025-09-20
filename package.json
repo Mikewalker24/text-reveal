@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/text-reveal.git"
+    "url": "git+https://github.com/Mikewalker24/text-reveal"
   },
   "keywords": [
     "text",
@@ -33,9 +33,9 @@
   "author": "Mike Walker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/your-username/text-reveal/issues"
+    "url": "https://github.com/Mikewalker24/text-reveal/issues"
   },
-  "homepage": "https://github.com/your-username/text-reveal#readme",
+  "homepage": "https://github.com/Mikewalker24/text-reveal#readme",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "rollup": "^4.52.0"
