@@ -4,7 +4,9 @@ Reveal text letter-by-letter as it enters the viewport.
 
 Tiny (2KB), no dependencies.
 
-## Demo
+## Demo ✨
+
+[Live Demo](https://text-revealjs.netlify.app)
 
 ## Features
 
