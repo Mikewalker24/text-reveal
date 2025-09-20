@@ -2,7 +2,7 @@
 
 Reveal text letter-by-letter as it enters the viewport.
 
-Tiny (2KB), no dependencies.
+Tiny (<1 KB), no dependencies.
 
 ## Demo ✨
 
@@ -12,7 +12,7 @@ Tiny (2KB), no dependencies.
 
 - **Letter-by-letter reveal:** Animates text one letter at a time as it enters the viewport.
 - **Adaptive staggered delays:** Short and long strings finish animating at the same time for a natural look.
-- **Tiny and dependency-free:** Only ~2KB, no external libraries required.
+- **Tiny and dependency-free:** Under 1Kb minified.
 - **Per-element customization:** Override `duration`, `minDelay`, `maxDelay`, and `threshold` using `data-*` attributes.
 - **Scroll-triggered:** Uses `IntersectionObserver` for efficient, performant animations.
 - **Flexible styling:** Customize transforms, easing, and timing via CSS.
