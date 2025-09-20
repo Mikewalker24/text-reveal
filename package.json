@@ -1,6 +1,6 @@
 {
-  "name": "text-reveal-animation",
-  "version": "1.0.0",
+  "name": "text-reveal.js",
+  "version": "1.0.2",
   "description": "Reveal text letter-by-letter as it enters the viewport.",
   "main": "dist/text-reveal.umd.js",
   "module": "dist/text-reveal.esm.js",

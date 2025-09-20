@@ -1,8 +1,8 @@
 export default function textReveal({
   selector = '.text-reveal',
-  duration = 1.2,
-  minDelay = 0.015,
-  maxDelay = 0.15,
+  duration = 1,
+  minDelay = 0.01,
+  maxDelay = 0.1,
   threshold = 0.1,
 } = {}) {
   const elements = document.querySelectorAll(selector);
