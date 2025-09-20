@@ -42,6 +42,7 @@ textReveal({
   maxDelay: 0.2,
   threshold: 0.3,
 });
+```
 
 | Option     | Type   | Default        | Description                                    |
 |------------|--------|----------------|------------------------------------------------|
