@@ -34,7 +34,7 @@ textReveal();
 
 ## Options
 
-````js
+```js
 textReveal({
   selector: '.my-custom-selector',
   duration: 1.5,
@@ -44,19 +44,17 @@ textReveal({
 });
 ```
 
-| Option     | Type   | Default        | Description                                    |
-|------------|--------|----------------|------------------------------------------------|
-| selector   | string | `.text-reveal` | Target elements to animate                     |
-| duration   | number | 1            | Total reveal duration (seconds)               |
-| minDelay   | number | 0.01          | Minimum per-letter delay                       |
-| maxDelay   | number | 0.1           | Maximum per-letter delay                       |
-| threshold  | number | 0.1            | IntersectionObserver threshold                 |
-
+| Option    | Type   | Default        | Description                     |
+| --------- | ------ | -------------- | ------------------------------- |
+| selector  | string | `.text-reveal` | Target elements to animate      |
+| duration  | number | 1              | Total reveal duration (seconds) |
+| minDelay  | number | 0.01           | Minimum per-letter delay        |
+| maxDelay  | number | 0.1            | Maximum per-letter delay        |
+| threshold | number | 0.1            | IntersectionObserver threshold  |
 
 ## CSS
 
 Add some CSS to style the animation. The JavaScript sets `transition-delay` automatically:
-
 
 ```css
 @media (prefers-reduced-motion: no-preference) {
@@ -72,7 +70,7 @@ Add some CSS to style the animation. The JavaScript sets `transition-delay` auto
     transform: translateY(0);
   }
 }
-````
+```
 
 You can fully customize the transform, timing, and easing to match your project.
 
